@@ -1,0 +1,351 @@
+/* body {
+    background-color: #fff9e3;
+} */
+
+body {
+    color: rgb(40, 40, 40);
+}
+
+.btn-post {
+    text-align: center;
+}
+.form-container {
+    width: 100%;
+    font-family: Futura PT;
+}
+
+.navbar{
+    padding: 1rem;
+    /* width: 100%; */
+    background: linear-gradient(to bottom, indianred, #fff9e3);
+  }
+
+.btn-go {
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+.forbtn{
+    text-align: end;
+}
+
+.btn-add{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.add-btn {
+    width: 4rem;
+    height: 1.5rem;
+    font-size: smaller;
+    background-color: darkseagreen;
+    border-radius: 8px;
+}
+
+.btn-submit {
+    background-color: darkseagreen;
+    border-radius: 8px;
+    width: 5rem;
+}
+
+.div-submit {
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+.form{
+    display: flex;
+}
+
+.container-1{
+    width: 45%;
+}
+
+.input-lists {
+    display: flex;
+}
+
+.list-header{
+    margin-bottom: 1rem;
+}
+
+.ingredient-list{
+    width: 50%;
+}
+
+.details {
+    margin: 1rem;
+    border: solid 1px rgb(216, 216, 216);
+}
+
+.story-details {
+    color: indianred;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.h-details {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: indianred;
+}
+
+.ingredient-list {
+    list-style: circle;
+}
+
+.recipe-list {
+    list-style: upper-roman;
+}
+
+.name-details {
+    margin-top: 2rem;
+    text-align: end;
+}
+
+.ing-details {
+    margin: 10px;
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+
+/* .t1 {
+    position: relative;
+    left: 15%;
+    top: 2rem;
+} */
+
+.t1 > ul{
+    list-style-type: none;
+}
+
+.t1 > h6 {
+    width: fit-content;
+    background-color: #018FA6;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* .t2 {
+    position: relative;
+    left: 41%;
+    top: 4rem;
+} */
+
+.t2 > ul {
+    list-style-type: none;
+}
+
+.t2 > h6 {
+    width: fit-content;
+    background-color: #018FA6;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+.tt1 {
+    justify-content: flex-start;
+}
+
+.tt2 {
+    justify-content: flex-end;
+}
+
+.tt3 {
+    justify-content: center;
+}
+
+hr {
+    width: 60%;
+    outline: dotted;
+    outline-color: #018FA6;
+}
+
+.ana{
+    font-family: math;
+    margin-top: 35rem;
+}
+
+.blogsDisplay {
+    margin-top: 5rem;
+}
+
+.delete-btn {
+    border-radius: 8px;
+    margin-right: 48%;
+    border: none;
+    background: transparent;
+}
+.delete-btn > svg {
+    color: green;
+}
+
+/* .container {
+    margin-top: 2rem;
+} */
+
+.blog {
+    margin-bottom: 2rem;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    box-shadow: 7px 7px 9px rgb(88, 0, 0);
+    cursor: pointer;
+}
+
+.blog:hover {
+    box-shadow: 2px 2px 20px rgb(147, 0, 0);
+}
+  
+.tip-blog{
+    margin-bottom: 2rem;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    box-shadow: 7px 7px 9px #005308;
+    cursor: pointer;
+}
+ 
+.tip-blog:hover {
+    box-shadow: 2px 2px 20px #00880e;
+}
+
+.story-blog{
+    margin-bottom: 2rem;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    box-shadow: 7px 7px 9px #49004e;
+    cursor: pointer;
+}
+
+.story-blog:hover {
+    box-shadow: 2px 2px 20px #83008c;
+}
+
+.tipContent{
+    background-color: #cdffd2;
+    text-align: center;
+    height: 4rem;
+    padding: 10px;
+}
+  
+.storyContent{
+    background-color: #fccdff;
+    text-align: center;
+    height: 4rem;
+    padding: 10px;
+}
+  
+.details-title {
+    color: indianred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.recipe-time {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-time > p {
+    margin-bottom: 0px;
+}
+
+/* LineStyles.css */
+.line {
+    display: inline-block;
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(216, 216, 216);
+}
+
+.line-icon {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.line-icon > svg {
+    width: 8%;
+    height: 10%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.recipe-serving {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.serving > p{
+    margin-bottom: 0px;
+}
+
+.line-ingredients{
+    display: flex;
+    align-items: center;
+}
+
+.text-details {
+    font-family: cursive;
+    margin-bottom: 1.5rem;
+}
+
+.story-summary {
+    justify-content: center;
+}
+
+.story-text {
+    padding: 15px;
+    border: solid 0.5px #c6c6c6;
+    box-shadow: 2px 2px 4px black;
+}
+
+.book-icons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.book-pages {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.movie-pages {
+    line-height: 140%;
+    text-align: center;
+    font-size: 90%;
+}
+
+.movie-duration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-span{
+    text-decoration: underline;
+}
+
+.movie-p{
+    font-style: oblique;
+}
+
+.movie-sum{
+    padding-bottom: 5%;
+}
